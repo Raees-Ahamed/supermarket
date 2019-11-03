@@ -1,0 +1,11 @@
+D:\InexisProject\MySuperMarket\MySuperMarket.BLL\bin\Debug\netcoreapp3.0\MySuperMarket.BLL.deps.json
+D:\InexisProject\MySuperMarket\MySuperMarket.BLL\bin\Debug\netcoreapp3.0\MySuperMarket.BLL.dll
+D:\InexisProject\MySuperMarket\MySuperMarket.BLL\bin\Debug\netcoreapp3.0\MySuperMarket.BLL.pdb
+D:\InexisProject\MySuperMarket\MySuperMarket.BLL\obj\Debug\netcoreapp3.0\MySuperMarket.BLL.csprojAssemblyReference.cache
+D:\InexisProject\MySuperMarket\MySuperMarket.BLL\obj\Debug\netcoreapp3.0\MySuperMarket.BLL.AssemblyInfoInputs.cache
+D:\InexisProject\MySuperMarket\MySuperMarket.BLL\obj\Debug\netcoreapp3.0\MySuperMarket.BLL.AssemblyInfo.cs
+D:\InexisProject\MySuperMarket\MySuperMarket.BLL\obj\Debug\netcoreapp3.0\MySuperMarket.BLL.dll
+D:\InexisProject\MySuperMarket\MySuperMarket.BLL\obj\Debug\netcoreapp3.0\MySuperMarket.BLL.pdb
+D:\InexisProject\MySuperMarket\MySuperMarket.BLL\bin\Debug\netcoreapp3.0\MySuperMarket.DAL.dll
+D:\InexisProject\MySuperMarket\MySuperMarket.BLL\bin\Debug\netcoreapp3.0\MySuperMarket.DAL.pdb
+D:\InexisProject\MySuperMarket\MySuperMarket.BLL\obj\Debug\netcoreapp3.0\MySuperMarket.BLL.csproj.CopyComplete

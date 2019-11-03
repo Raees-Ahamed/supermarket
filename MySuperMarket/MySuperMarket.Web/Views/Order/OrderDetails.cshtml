@@ -1,0 +1,64 @@
+﻿@model MySuperMarket.Web.ViewModel.OrderViewModel
+
+@{
+    ViewBag.Title = "OrderDetails";
+}
+<br />
+<h4>OrderDetails</h4>
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.OrderCustomer.FirstName)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.OrderCustomer.FirstName)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Date)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Date)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.ShippingAddress)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ShippingAddress)
+        </dd>
+    </dl>
+</div>
+<table id="OrderDetailsView" class="table ">
+    <thead>
+        <tr>
+            <th style="width:20%">Product</th>
+            <th style="width:30%">Product Description</th>
+            <th style="width:10%">Price</th>
+            <th style="width:8%">Quantity</th>
+            <th style="width:22%" class="text-center">Subtotal</th>
+            <th style="width:10%"></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var i in Model.Items)
+        {
+            <tr>
+                <td data-th="Product">@i.Product.Name</td>
+                <td data-th="Description">@i.Product.Description</td>
+                <td data-th="Price">@i.Product.CurrentPrice</td>
+                <td data-th="Quantity">@i.Quantity</td>
+                <td data-th="Subtotal" class="text-center">@(i.Product.CurrentPrice * i.Quantity)</td>
+            </tr>
+        }
+    </tbody>
+    <tfoot>
+        <tr>
+            <td data-th="Product"></td>
+            <td data-th="Description"></td>
+            <td data-th="Price"></td>
+            <td data-th="Quantity">Grand Total</td>
+            <td data-th="Subtotal" class="text-center">@Model.OrderTotal</td>
+        </tr>
+    </tfoot>
+</table>
+

@@ -1,0 +1,67 @@
+﻿@model MySuperMarket.Web.ViewModel.OrderViewModel
+<br />
+<div>
+    <h4>Add Items To Cart :</h4>
+    <div id="errorMessages" class="alert-danger"></div>
+    <hr />
+    <input type="hidden" name="name" value="@Model.Date" id="OderDateID" />
+    <input type="hidden" name="name" value="@Model.CustomerId" id="CustomerId" />
+    <table id="ProductSelect" class="table orderLine1 ">
+        <thead>
+            <tr>
+                <th style="width:20%">Product</th>
+                <th style="width:30%">Product Description</th>
+                <th style="width:10%">Price</th>
+                <th style="width:8%">Quantity</th>
+                <th style="width:22%" class="text-center">Subtotal</th>
+                <th style="width:10%"></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td data-th="Product"><input type="text" id="ProductName" class="form-control text-center " value="" /></td>
+                <td data-th="Description"><input type="text" id="ProductDescription" class="form-control text-center " value="" readonly /></td>
+                <td data-th="Price"><input type="number" id="ProductPrice" class="form-control text-center " value="" readonly /></td>
+                <td data-th="Quantity">
+                    <input type="number" id="ProductQuantity" class="form-control text-center ">
+                </td>
+                <td data-th="Subtotal" class="text-center">
+                    <input type="text" id="ProductSubTotal" class="form-control text-center  " value="" readonly>
+                </td>
+                <td class="actions" data-th="">
+                    <input type="button" id="AddItem" value="Add Item" />
+                    <input type="hidden" id="ProductId" value="" />
+                    <input type="hidden" id="ProductAvailableStock" value="" />
+                </td>
+            </tr>
+        </tbody>
+        <tfoot>
+        </tfoot>
+    </table>
+    <hr />
+    <table id="myTable" class="table ">
+        <thead>
+            <tr>
+                <th style="width:20% ">Product</th>
+                <th style="width:30%">Product Description</th>
+                <th style="width:10%">Price</th>
+                <th style="width:10%">Quantity</th>
+                <th style="width:20%" class="text-center">Subtotal</th>
+                <th style="width:10%"></th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+        <tfoot>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td data-th="Quantity">Grand Total :</td>
+                <td id="GrandTotal" data-th="Subtotal" class="text-center"></td>
+            </tr>
+        </tfoot>
+    </table>
+    <input type="button" id="Save" value="Save" />
+    <div id="test"></div>
+
+</div>

@@ -1,0 +1,34 @@
+﻿@model MySuperMarket.Web.ViewModel.OrderStartViewModel
+
+<table id="RecentOrders" class="table ">
+    <thead>
+        <tr>
+            <th style="width:4% "></th>
+            <th style="width:20%">Customer</th>
+            <th style="width:20%">Order Date</th>
+            <th style="width:20%">Shipping Address</th>
+            <th style="width:8%">Total Price</th>
+            <th style="width:22%" class="text-center"></th>
+            <th style="width:10%"></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var order in Model.RecentOrders)
+        {
+            <tr>
+                <td data-th="OrderId" style="visibility:hidden">@order.Id</td>
+                <td data-th="Product">@order.OrderCustomer.FirstName</td>
+                <td data-th="Description">@order.Date</td>
+                <td data-th="Price">@order.ShippingAddress</td>
+                <td data-th="Quantity">@order.OrderTotal</td>
+                <td class="text-center">
+                    @Html.ActionLink("Edit", "OrderEdit", new { id = order.Id }) |
+                    @Html.ActionLink("Details", "OrderDetails", new { id = order.Id }) |
+                    <a href="javascript:void(0)" class="deleteRecentOrder"> Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+    <tfoot>
+    </tfoot>
+</table>
