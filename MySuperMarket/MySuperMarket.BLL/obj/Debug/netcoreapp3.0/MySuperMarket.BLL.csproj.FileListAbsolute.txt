@@ -9,3 +9,14 @@ D:\InexisProject\MySuperMarket\MySuperMarket.BLL\obj\Debug\netcoreapp3.0\MySuper
 D:\InexisProject\MySuperMarket\MySuperMarket.BLL\bin\Debug\netcoreapp3.0\MySuperMarket.DAL.dll
 D:\InexisProject\MySuperMarket\MySuperMarket.BLL\bin\Debug\netcoreapp3.0\MySuperMarket.DAL.pdb
 D:\InexisProject\MySuperMarket\MySuperMarket.BLL\obj\Debug\netcoreapp3.0\MySuperMarket.BLL.csproj.CopyComplete
+C:\Users\Roshan\Documents\GitHub\supermarket\MySuperMarket\MySuperMarket.BLL\bin\Debug\netcoreapp3.0\MySuperMarket.BLL.deps.json
+C:\Users\Roshan\Documents\GitHub\supermarket\MySuperMarket\MySuperMarket.BLL\bin\Debug\netcoreapp3.0\MySuperMarket.BLL.dll
+C:\Users\Roshan\Documents\GitHub\supermarket\MySuperMarket\MySuperMarket.BLL\bin\Debug\netcoreapp3.0\MySuperMarket.BLL.pdb
+C:\Users\Roshan\Documents\GitHub\supermarket\MySuperMarket\MySuperMarket.BLL\bin\Debug\netcoreapp3.0\MySuperMarket.DAL.dll
+C:\Users\Roshan\Documents\GitHub\supermarket\MySuperMarket\MySuperMarket.BLL\bin\Debug\netcoreapp3.0\MySuperMarket.DAL.pdb
+C:\Users\Roshan\Documents\GitHub\supermarket\MySuperMarket\MySuperMarket.BLL\obj\Debug\netcoreapp3.0\MySuperMarket.BLL.csprojAssemblyReference.cache
+C:\Users\Roshan\Documents\GitHub\supermarket\MySuperMarket\MySuperMarket.BLL\obj\Debug\netcoreapp3.0\MySuperMarket.BLL.AssemblyInfoInputs.cache
+C:\Users\Roshan\Documents\GitHub\supermarket\MySuperMarket\MySuperMarket.BLL\obj\Debug\netcoreapp3.0\MySuperMarket.BLL.AssemblyInfo.cs
+C:\Users\Roshan\Documents\GitHub\supermarket\MySuperMarket\MySuperMarket.BLL\obj\Debug\netcoreapp3.0\MySuperMarket.BLL.csproj.CopyComplete
+C:\Users\Roshan\Documents\GitHub\supermarket\MySuperMarket\MySuperMarket.BLL\obj\Debug\netcoreapp3.0\MySuperMarket.BLL.dll
+C:\Users\Roshan\Documents\GitHub\supermarket\MySuperMarket\MySuperMarket.BLL\obj\Debug\netcoreapp3.0\MySuperMarket.BLL.pdb

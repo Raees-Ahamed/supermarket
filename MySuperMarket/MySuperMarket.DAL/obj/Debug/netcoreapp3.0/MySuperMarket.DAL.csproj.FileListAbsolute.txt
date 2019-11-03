@@ -8,3 +8,13 @@ D:\InexisProject\MySuperMarket\MySuperMarket.DAL\obj\Debug\netcoreapp3.0\MySuper
 D:\InexisProject\MySuperMarket\MySuperMarket.DAL\obj\Debug\netcoreapp3.0\MySuperMarket.DAL.pdb
 D:\InexisProject\MySuperMarket\MySuperMarket.DAL\bin\Debug\netcoreapp3.0\MySuperMarket.DAL.runtimeconfig.json
 D:\InexisProject\MySuperMarket\MySuperMarket.DAL\bin\Debug\netcoreapp3.0\MySuperMarket.DAL.runtimeconfig.dev.json
+C:\Users\Roshan\Documents\GitHub\supermarket\MySuperMarket\MySuperMarket.DAL\bin\Debug\netcoreapp3.0\MySuperMarket.DAL.deps.json
+C:\Users\Roshan\Documents\GitHub\supermarket\MySuperMarket\MySuperMarket.DAL\bin\Debug\netcoreapp3.0\MySuperMarket.DAL.runtimeconfig.json
+C:\Users\Roshan\Documents\GitHub\supermarket\MySuperMarket\MySuperMarket.DAL\bin\Debug\netcoreapp3.0\MySuperMarket.DAL.runtimeconfig.dev.json
+C:\Users\Roshan\Documents\GitHub\supermarket\MySuperMarket\MySuperMarket.DAL\bin\Debug\netcoreapp3.0\MySuperMarket.DAL.dll
+C:\Users\Roshan\Documents\GitHub\supermarket\MySuperMarket\MySuperMarket.DAL\bin\Debug\netcoreapp3.0\MySuperMarket.DAL.pdb
+C:\Users\Roshan\Documents\GitHub\supermarket\MySuperMarket\MySuperMarket.DAL\obj\Debug\netcoreapp3.0\MySuperMarket.DAL.csprojAssemblyReference.cache
+C:\Users\Roshan\Documents\GitHub\supermarket\MySuperMarket\MySuperMarket.DAL\obj\Debug\netcoreapp3.0\MySuperMarket.DAL.AssemblyInfoInputs.cache
+C:\Users\Roshan\Documents\GitHub\supermarket\MySuperMarket\MySuperMarket.DAL\obj\Debug\netcoreapp3.0\MySuperMarket.DAL.AssemblyInfo.cs
+C:\Users\Roshan\Documents\GitHub\supermarket\MySuperMarket\MySuperMarket.DAL\obj\Debug\netcoreapp3.0\MySuperMarket.DAL.dll
+C:\Users\Roshan\Documents\GitHub\supermarket\MySuperMarket\MySuperMarket.DAL\obj\Debug\netcoreapp3.0\MySuperMarket.DAL.pdb

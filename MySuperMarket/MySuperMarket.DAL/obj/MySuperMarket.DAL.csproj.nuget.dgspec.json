@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\InexisProject\\MySuperMarket\\MySuperMarket.DAL\\MySuperMarket.DAL.csproj": {}
+    "C:\\Users\\Roshan\\Documents\\GitHub\\supermarket\\MySuperMarket\\MySuperMarket.DAL\\MySuperMarket.DAL.csproj": {}
   },
   "projects": {
-    "D:\\InexisProject\\MySuperMarket\\MySuperMarket.DAL\\MySuperMarket.DAL.csproj": {
+    "C:\\Users\\Roshan\\Documents\\GitHub\\supermarket\\MySuperMarket\\MySuperMarket.DAL\\MySuperMarket.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\InexisProject\\MySuperMarket\\MySuperMarket.DAL\\MySuperMarket.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\Roshan\\Documents\\GitHub\\supermarket\\MySuperMarket\\MySuperMarket.DAL\\MySuperMarket.DAL.csproj",
         "projectName": "MySuperMarket.DAL",
-        "projectPath": "D:\\InexisProject\\MySuperMarket\\MySuperMarket.DAL\\MySuperMarket.DAL.csproj",
-        "packagesPath": "C:\\Users\\samma\\.nuget\\packages\\",
-        "outputPath": "D:\\InexisProject\\MySuperMarket\\MySuperMarket.DAL\\obj\\",
+        "projectPath": "C:\\Users\\Roshan\\Documents\\GitHub\\supermarket\\MySuperMarket\\MySuperMarket.DAL\\MySuperMarket.DAL.csproj",
+        "packagesPath": "C:\\Users\\Roshan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Roshan\\Documents\\GitHub\\supermarket\\MySuperMarket\\MySuperMarket.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\samma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Roshan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,7 +25,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://nuget.org/api/v2/": {}
         },
         "frameworks": {
           "netcoreapp3.0": {

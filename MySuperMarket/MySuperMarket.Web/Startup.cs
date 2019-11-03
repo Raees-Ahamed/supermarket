@@ -39,7 +39,14 @@ namespace MySuperMarket.Web
             {
                 cfg.User.RequireUniqueEmail = true;
             }).AddEntityFrameworkStores<ShopCartDbContext>();
-            services.AddDbContext<ShopCartDbContext>(cfg =>cfg.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+
+            services.AddDbContext<ShopCartDbContext>(cfg =>
+            { 
+                cfg.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
+            });
+
+            services.AddScoped<IProductService, ProductServiceTemp>();
+            services.AddScoped<IOrderService, OrderServiceTemp>();
 
             var config = new MapperConfiguration(cfg =>
             {
@@ -49,9 +56,11 @@ namespace MySuperMarket.Web
             services.AddSingleton(mapper);
             services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddTransient<ICustomerService, CustomerService>();
-            services.AddTransient<IProductService, ProductService>();
-            services.AddTransient<IOrderService, OrderService>();
+            //services.AddTransient<IProductService, ProductService>();
+            //services.AddTransient<IOrderService, OrderService>();
             services.AddTransient<IAccountService, AccountService>();
+
+            services.AddControllers();
 
         }
 
@@ -84,6 +93,7 @@ namespace MySuperMarket.Web
              app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute("default","{controller=Home}/{action=Index}/{id?}");
+                endpoints.MapRazorPages();
             });
 
         }

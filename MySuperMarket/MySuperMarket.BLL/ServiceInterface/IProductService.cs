@@ -8,8 +8,10 @@ namespace MySuperMarket.BLL.ServiceInterface
 {
     public interface IProductService
     {
-        ProductBO GetProductByID(int id);
-        IEnumerable<ProductBO> GetProductAutoCompleteList(string searchKey);
+        Product GetProductByID(int id);
+        IEnumerable<Product> GetProductAutoCompleteList(string searchKey);
         void UpdateProductQuantity(int productId, int productQuantity, bool isDeleted);
+        IEnumerable<Product> GetAllProducts();
+        void AddProduct(Product product);
     }
 }

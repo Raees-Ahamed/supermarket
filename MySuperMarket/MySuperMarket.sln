@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29424.173
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySuperMarket.Web", "MySuperMarket.Web\MySuperMarket.Web.csproj", "{2DB521F3-F9FB-4068-B91C-746F71A56760}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MySuperMarket.Web", "MySuperMarket.Web\MySuperMarket.Web.csproj", "{2DB521F3-F9FB-4068-B91C-746F71A56760}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySuperMarket.DAL", "MySuperMarket.DAL\MySuperMarket.DAL.csproj", "{7C17C19B-771C-4247-9BDE-180831847AD2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MySuperMarket.DAL", "MySuperMarket.DAL\MySuperMarket.DAL.csproj", "{7C17C19B-771C-4247-9BDE-180831847AD2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySuperMarket.BLL", "MySuperMarket.BLL\MySuperMarket.BLL.csproj", "{39E38F25-F8A7-4D50-ACB3-03265F5AB3F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MySuperMarket.BLL", "MySuperMarket.BLL\MySuperMarket.BLL.csproj", "{39E38F25-F8A7-4D50-ACB3-03265F5AB3F5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

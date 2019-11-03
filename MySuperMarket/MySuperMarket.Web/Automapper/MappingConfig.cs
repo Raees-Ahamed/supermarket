@@ -16,7 +16,7 @@ namespace MySuperMarket.Web.Automapper
             CreateMap<CustomerBO, Customer>().ReverseMap();
             CreateMap<OrderItemBO, OrderItem>().ReverseMap();
             CreateMap<OrderBO, Order>().ReverseMap();
-            CreateMap<ProductBO, Product>().ReverseMap();
+            //CreateMap<ProductBO, Product>().ReverseMap();
             CreateMap<OrderBO, OrderItemBO>().ReverseMap();
             CreateMap<Order, OrderItem>().ReverseMap();
             CreateMap<UserBO, UserViewModel>().ReverseMap();

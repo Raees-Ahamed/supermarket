@@ -1,11 +1,32 @@
-﻿@model MySuperMarket.DAL.Entity.Product
+﻿@model IEnumerable<MySuperMarket.DAL.Entity.Product>
+
+@{ 
+    ViewBag.Title = "Product";
+}
 
 <div>
+    <h1>Product Details</h1>
+    <a href="/Product/Create">Add Product</a>
     <table>
         <tr>
-            <td>Product Id</td>
-            <td>Product Name</td>
+            <th>Product Id</th>
+            <th>Product Name</th>
+            <th colspan="2">Description</th>
+            <th>Current Price</th>
+            <th>Controls</th>
         </tr>
-
+        @foreach(var product in Model)
+        {
+            <tr>
+                <td>@product.Id</td>
+                <td>@product.Name</td>
+                <td colspan="2">@product.Description</td>
+                <td>@product.CurrentPrice</td>
+                <td>
+                    <a href="/Product/Edit">Edit</a>
+                    <a href="/Product/Delete">Delete</a>
+                </td>
+            </tr>
+        }
     </table>
 </div>
